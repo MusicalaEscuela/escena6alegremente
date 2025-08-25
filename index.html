@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlegreMente 2025 · Escena 6</title>
+  <meta name="description" content="Guía completa para aprender y montar la Escena 6: Tierra Imaginaria." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body
+  id="scene6"
+  data-audio="Tierra Imaginaria.mp3,Tierra Imaginaria - Orquesta.mp3"
+  data-guion="Guión Escena VI.pdf"
+  data-scores-url="[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]"
+  data-hero="Escena 6.jpg"
+  data-fondo="Fondo 6.jpg"
+>
+  <!-- Barra superior -->
+  <header class="top">
+    <div class="topbar wrap">
+      <div class="brand">
+        <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" style="border-radius:10px; object-fit:cover" />
+        <div>
+          <h1>AlegreMente 2025 · Guía de Escena</h1>
+          <small class="muted">Escena 6 · Tierra Imaginaria</small>
+        </div>
+      </div>
+      <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+    </div>
+  </header>
+
+  <!-- Reproductor -->
+  <div class="playerbar">
+    <div class="player wrap">
+      <label for="sceneAudio" id="audioLabel">🎶 Audio: “Tierra Imaginaria”</label>
+      <audio id="sceneAudio" preload="auto" controls playsinline></audio>
+      <button id="btnPlay" class="btn" title="Reproducir / Pausar">▶ Reproducir</button>
+    </div>
+  </div>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <div class="wrap">
+      <div class="filter-group" id="grp-areas">
+        <h4>Arte</h4>
+        <span class="chip" data-type="area" data-area="teatro">Teatro</span>
+        <span class="chip" data-type="area" data-area="musica">Música/Orquesta</span>
+        <span class="chip" data-type="area" data-area="plastica">Artes plásticas</span>
+        <span class="chip" data-type="area" data-area="danza">Danza</span>
+        <span class="chip" data-type="area" data-area="luces">Luces</span>
+        <span class="chip" data-type="area" data-area="produccion">Producción/Logística</span>
+      </div>
+
+      <div class="filter-group" id="grp-centros">
+        <h4>Centro</h4>
+        <span class="chip" data-type="centro" data-centro="arroyo">Arroyo</span>
+        <span class="chip" data-type="centro" data-centro="betania">Betania</span>
+        <span class="chip" data-type="centro" data-centro="colegio">Colegio</span>
+        <span class="chip" data-type="centro" data-centro="jerusalen">Jerusalén</span>
+        <span class="chip" data-type="centro" data-centro="lucero">Lucero</span>
+        <span class="chip" data-type="centro" data-centro="padre">Padre Misericordioso</span>
+        <span class="chip" data-type="centro" data-centro="santo">Santo Domingo</span>
+      </div>
+
+      <div class="filter-group" id="grp-log">
+        <h4>Logística</h4>
+        <span class="chip" data-type="log" data-log="vestuario">Vestuario</span>
+        <span class="chip" data-type="log" data-log="materiales">Materiales</span>
+        <span class="chip" data-type="log" data-log="proyeccion">Proyección</span>
+        <span class="chip" data-type="log" data-log="luces">Luces</span>
+        <span class="chip" data-type="log" data-log="utileria">Utilería</span>
+      </div>
+
+      <div class="toolbar">
+        <div class="search">
+          <input id="q" type="search" placeholder="Buscar en la escena…" aria-label="Buscar" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <!-- Imagen principal -->
+    <div class="hero">
+      <img src="Escena 6.jpg" alt="Escena 6: Tierra Imaginaria" />
+    </div>
+
+    <div class="grid">
+      <!-- COLUMNA PRINCIPAL -->
+      <section>
+        <!-- Resumen -->
+        <div class="card" data-tags="general produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>Resumen en 30 segundos</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <p>Sofía cruza a una <b>tierra donde todo lo imaginado es posible</b>: peces que vuelan, sillas flotantes y puertas dibujadas en el aire. Aquí <em>recupera el derecho a soñar</em>, a jugar y a crear sin miedo. La escena explora la <b>imaginación como resistencia</b>.</p>
+            <div class="tools">
+              <span class="pill">Duración: 6–8 min</span>
+              <span class="pill">Lenguajes: Teatro · Danza · Artes Plásticas</span>
+              <span class="pill">Música: Orquesta (“Tierra Imaginaria”)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Propósito -->
+        <div class="card" data-tags="general" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎯 Propósito pedagógico</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><strong>Habilitar</strong> la imaginación como herramienta de cuidado y libertad.</li>
+              <li><strong>Explorar</strong> lo surreal y lo lúdico para ampliar el repertorio expresivo.</li>
+              <li><strong>Integrar</strong> objetos y espacios imposibles como motores de creación.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Acción paso a paso -->
+        <div class="card" data-tags="teatro danza" data-centros="jerusalen colegio arroyo">
+          <header onclick="toggle(this)"><h2>🌀 Acción paso a paso</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ol>
+              <li>Sofía entra con ojos cerrados; al abrirlos, <em>el mundo está al revés</em> (sillas flotan, árboles invertidos).</li>
+              <li>Una <b>voz invisible</b> le invita a nombrar lo que quiere ser (nube, risa, gigante).</li>
+              <li>El elenco aparece con <b>sombreros y alas absurdas</b>, proponiendo juegos imposibles.</li>
+              <li>Sofía <b>dibuja una puerta</b> en el aire y la atraviesa; encuentra a su <em>niña interior</em>.</li>
+              <li>Con música, se activan <b>saltos sin gravedad</b> y <b>caminatas al revés</b>; cierre en elevación suave.</li>
+            </ol>
+          </div>
+        </div>
+
+        <!-- Imagen plástica -->
+        <div class="card" data-tags="plastica produccion" data-centros="arroyo" data-log="materiales proyeccion vestuario utileria">
+          <header onclick="toggle(this)"><h2>🎨 Imagen plástica en escena</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><strong>Fondo</strong>: <b>surreal</b> con escaleras flotantes y relojes derretidos (proyección: <code>Fondo 6.jpg</code>).</li>
+              <li><strong>Objetos imposibles</strong>: mesas/sillas suspendidas, platos y pocillos “levitando”.</li>
+              <li><strong>Alebrijes</strong> (proyectados o en varillas) como criaturas guías.</li>
+              <li><strong>Sombreros locos</strong> y alas de cartón para la poética de la imaginación.</li>
+            </ul>
+            <div class="stage-assets">
+              <div class="asset">
+                <a href="Fondo 6.jpg" data-preview><img src="Fondo 6.jpg" alt="Fondo proyectado – Tierra Imaginaria" /></a>
+                <small class="muted">Fondo proyectado</small>
+              </div>
+              <div class="asset">
+                <a href="Escena 6.jpg" data-preview><img src="Escena 6.jpg" alt="Arte guía Escena 6" /></a>
+                <small class="muted">Arte guía</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luces -->
+        <div class="card" data-tags="luces tecnica" data-centros="arroyo betania colegio jerusalen lucero padre santo" data-log="luces">
+          <header onclick="toggle(this)"><h2>🎛️ Luces y transiciones</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <table>
+              <thead><tr><th>Cue</th><th>Estado</th><th>Detalle</th></tr></thead>
+              <tbody>
+                <tr><td><b>L1 – Despertar</b></td><td>Lavanda + cian suave</td><td>Atmósfera onírica al abrir ojos.</td></tr>
+                <tr><td><b>L2 – Juego imposible</b></td><td>Colores cálidos alternos</td><td>Parpadeos lentos en objetos “flotantes”.</td></tr>
+                <tr><td><b>L3 – Puerta dibujada</b></td><td>Recorte focal</td><td>Haz definido donde Sofía traza la puerta.</td></tr>
+                <tr><td><b>L4 – Encuentro</b></td><td>Ámbar tenue</td><td>Abrazo con la niña interior; calma.</td></tr>
+                <tr><td><b>L5 – Vuelo final</b></td><td>General cálido + contraluz</td><td>Elevación suave; deja estela luminosa.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Guion (PDF) -->
+        <div class="card" data-tags="teatro produccion" data-centros="jerusalen colegio arroyo lucero padre santo betania">
+          <header onclick="toggle(this)"><h2>📄 Guion de la escena (PDF)</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <iframe class="pdf-frame" src="Guión Escena VI.pdf#toolbar=1&navpanes=0&statusbar=0&view=FitH" title="Guion Escena 6"></iframe>
+            <div class="actions">
+              <a id="pdfView" class="btn" href="Guión Escena VI.pdf" target="_blank" rel="noreferrer">🔎 Ver en pestaña</a>
+              <a id="pdfDownload" class="btn" href="Guión Escena VI.pdf" download>⬇️ Descargar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Partituras (carpeta) -->
+        <div class="card" data-tags="musica produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎼 Partituras (carpeta completa)</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <p class="muted">Tema principal <b>“Tierra Imaginaria”</b>, con entradas para activar motivos de juego y silencios expresivos.</p>
+            <p>
+              <a id="allScoresLink" class="btn" href="[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]" target="_blank" rel="noreferrer">📂 Abrir carpeta de partituras</a>
+            </p>
+            <p class="note">Sugerencia: descarga la carpeta para ensayo sin conexión.</p>
+          </div>
+        </div>
+
+        <!-- Guía de rítmicas/figuras -->
+        <div class="card" data-tags="musica danza produccion" data-centros="colegio jerusalen arroyo">
+          <header onclick="toggle(this)"><h2>🧭 Guía de rítmicas y figuras escénicas</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Tempos</b>: rubato lúdico al inicio; pulso claro al activar “vuelo”.</li>
+              <li><b>Figuras</b>: diagonales cruzadas (portales), círculos invertidos, hileras “al revés”.</li>
+              <li><b>Señales</b>: mano dibuja puerta (entrada música); brazos en V (despegue); abrazo propio (encuentro interior).</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Checklist -->
+        <div class="card" data-tags="general produccion tecnica danza teatro plastica musica" data-centros="arroyo betania colegio jerusalen lucero padre santo" data-log="vestuario luces materiales proyeccion utileria">
+          <header onclick="toggle(this)"><h2>✅ Checklist</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul id="check-escena6">
+              <li>[ ] Proyección <b>Fondo 6.jpg</b> (surreal) operativa.</li>
+              <li>[ ] <b>Sombreros/alas</b> listos y asignados por rol.</li>
+              <li>[ ] <b>Objetos imposibles</b> seguros (suspensión y tránsito en escena).</li>
+              <li>[ ] Cues de luces L1–L5 programados y probados.</li>
+              <li>[ ] Entrada musical y silencios expresivos ensayados.</li>
+              <li>[ ] Marcaje de <b>puerta dibujada</b> y elevación final.</li>
+            </ul>
+            <div class="actions">
+              <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COLUMNA LATERAL -->
+      <aside>
+        <div class="card" data-tags="produccion" data-centros="jerusalen colegio arroyo">
+          <header onclick="toggle(this)"><h2>👥 Centros y responsables</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Teatro:</b> Jerusalén (Brenda)</li>
+              <li><b>Danza:</b> Colegio (Angie)</li>
+              <li><b>Plástica:</b> Arroyo (Leydy)</li>
+            </ul>
+            <p class="muted">Coordinación general: orquesta + docentes de cada centro.</p>
+          </div>
+        </div>
+
+        <div class="card" data-tags="produccion plastica" data-centros="arroyo" data-log="materiales vestuario proyeccion utileria">
+          <header onclick="toggle(this)"><h2>📦 Materiales clave</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li><b>Vestuario:</b> <em>vestimenta loca</em>, peinados y sombreros absurdos.</li>
+              <li><b>Sombreros locos</b>: cartón paja, limpia‑pipas, foamy, plumas, lentejuelas.</li>
+              <li><b>Utilería</b>: alas de cartón, colas de dragón, varillas para alebrijes.</li>
+              <li><b>Proyección</b>: <code>Fondo 6.jpg</code> (relojes derretidos, escaleras flotantes).</li>
+              <li><b>Escenografía</b>: mesas/sillas/platos/pocillos para “levitar”.</li>
+              <li><b>Luces</b>: paleta lavanda/cian + cálidos para juego y vuelo.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" data-tags="musica produccion" data-centros="arroyo betania colegio jerusalen lucero padre santo">
+          <header onclick="toggle(this)"><h2>🎻 Indicaciones musicales</h2><span class="caret">Contraer</span></header>
+          <div class="content">
+            <ul>
+              <li>Apertura con <b>texturas ligeras</b> (maderas/violines sul tasto).</li>
+              <li>Crecidas breves en entradas de “puerta” y “vuelo”.</li>
+              <li>Final en <em>diminuendo</em> con <b>contraluz</b> y suspensión.</li>
+            </ul>
+            <p class="muted">Cuidar respiraciones y silencios como parte del discurso.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Volver -->
+    <div class="wrap center">
+      <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+    </div>
+
+    <div class="footer">AlegreMente 2025 · Escena 6 · Guía práctica para todo público</div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
