@@ -89,10 +89,10 @@
 "centros": {
 "items": [
 "<b>Teatro:</b> Jerusalén",
-"<b>Danza:</b> Colegio",
+"<b>Danza:</b> GMMMC",
 "<b>Artes plásticas:</b> Arroyo"
 ],
-"docentesText": "Docentes responsables: Brenda (Teatro), Angie (Danza) y Leydy (Plástica)"
+"docentesText": "Docentes responsables: Eryck Martínez, Angie Nitola y Leydy Díaz"
 },
 "materiales": [
 "Vestuario lúdico: <em>vestimenta loca</em>, peinados y sombreros absurdos. <span class='pill'>vestuario</span>",
@@ -110,9 +110,9 @@
 "docentes": {
 "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
 "items": [
-{ "name": "Brenda", "url": "docentes/brenda.html", "areas": ["teatro"] },
-{ "name": "Angie", "url": "docentes/angie.html", "areas": ["danza"] },
-{ "name": "Leydy", "url": "docentes/leydy.html", "areas": ["plastica"] }
+{ "name": "Eryck Martínez", "url": "docentes/brenda.html", "areas": ["teatro"] },
+{ "name": "Angie Nitola", "url": "docentes/angie.html", "areas": ["danza"] },
+{ "name": "Leydy Díaz", "url": "docentes/leydy.html", "areas": ["plastica"] }
 ]
 },
 "glosario": [
@@ -120,4 +120,5 @@
 { "term": "alebrije", "def": "criatura fantástica de colores vivos; aquí guía lúdica/poética." },
 { "term": "recorte", "def": "luz puntual que aísla a una persona u objeto en escena." }
 ]
+
 }
