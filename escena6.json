@@ -88,11 +88,11 @@
 },
 "centros": {
 "items": [
-"<b>Teatro:</b> Jerusalén",
+"<b>Teatro:</b> Lucero",
 "<b>Danza:</b> GMMMC",
 "<b>Artes plásticas:</b> Arroyo"
 ],
-"docentesText": "Docentes responsables: Eryck Martínez, Angie Nitola y Leydy Díaz"
+"docentesText": "Docentes responsables: Angie Nitola y Leydy Díaz"
 },
 "materiales": [
 "Vestuario lúdico: <em>vestimenta loca</em>, peinados y sombreros absurdos. <span class='pill'>vestuario</span>",
@@ -110,7 +110,7 @@
 "docentes": {
 "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
 "items": [
-{ "name": "Eryck Martínez", "url": "docentes/brenda.html", "areas": ["teatro"] },
+{ "name": "Angie Nitola", "url": "docentes/brenda.html", "areas": ["teatro"] },
 { "name": "Angie Nitola", "url": "docentes/angie.html", "areas": ["danza"] },
 { "name": "Leydy Díaz", "url": "docentes/leydy.html", "areas": ["plastica"] }
 ]
@@ -122,3 +122,4 @@
 ]
 
 }
+
