@@ -1,125 +1,146 @@
 {
-"meta": {
-"title": "AlegreMente 2025 · Escena 6",
-"subtitle": "Tierra Imaginaria",
-"footer": "AlegreMente 2025 · Escena 6 · Guía práctica",
-"images": {
-"hero": "Escena 6.jpg",
-"heroAlt": "Escena 6 – Tierra Imaginaria"
-}
-},
-"audio": {
-"label": "🎶 Audio: “Tierra Imaginaria”",
-"sources": ["Tierra Imaginaria.mp3", "Tierra Imaginaria - Orquesta.mp3"]
-},
-"filters": {
-"areas": ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
-"centros": ["arroyo", "betania", "colegio", "jerusalen", "lucero", "padre", "santo"],
-"log": ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
-},
-"resumen": {
-"text": "Sofía cruza a una <b>tierra donde todo lo imaginado es posible</b>: peces que vuelan, sillas flotantes y puertas dibujadas en el aire. Aquí <em>recupera el derecho a soñar</em>, a jugar y a crear sin miedo. La escena explora la <b>imaginación como resistencia</b>.",
-"duration": "10 min",
-"tags": ["Teatro · Danza · Artes Plásticas", "Música: Orquesta (Tierra Imaginaria)"]
-},
-"proposito": [
-"<strong>Habilitar</strong> la imaginación como herramienta de cuidado y libertad.",
-"<strong>Explorar</strong> lo surreal y lo lúdico para ampliar el repertorio expresivo.",
-"<strong>Integrar</strong> objetos y espacios imposibles como motores de creación."
-],
-"pasos": [
-"Sofía entra con ojos cerrados; al abrirlos, <em>el mundo está al revés</em> (sillas flotan, árboles invertidos).",
-"Una <b>voz invisible</b> le invita a nombrar lo que quiere ser (nube, risa, gigante).",
-"El elenco aparece con <b>sombreros y alas absurdas</b>, proponiendo juegos imposibles.",
-"Sofía <b>dibuja una puerta</b> en el aire y la atraviesa; encuentra a su <em>niña interior</em>.",
-"Con música, se activan <b>saltos sin gravedad</b> y <b>caminatas al revés</b>; cierre en elevación suave."
-],
-"plastica": {
-"items": [
-"<strong>Fondo</strong>: estética <b>surreal</b> con escaleras flotantes y relojes derretidos (proyección <code>Fondo 6.jpg</code>).",
-"<strong>Objetos imposibles</strong>: mesas/sillas suspendidas, platos y pocillos “levitando”.",
-"<strong>Alebrijes</strong> (proyectados o en varillas) como criaturas guías.",
-"<strong>Sombreros locos</strong> y alas de cartón para la poética de la imaginación."
-],
-"assets": [
-{ "src": "Fondo 6.jpg" }
-]
-},
-"luces": [
-{ "Cue": "<b>L1 – Despertar</b>", "Estado": "Lavanda + cian suave", "Detalle": "Atmósfera onírica al abrir ojos." },
-{ "Cue": "<b>L2 – Juego imposible</b>", "Estado": "Colores cálidos alternos", "Detalle": "Parpadeos lentos en objetos “flotantes”." },
-{ "Cue": "<b>L3 – Puerta dibujada</b>", "Estado": "Recorte focal", "Detalle": "Haz definido donde Sofía traza la puerta." },
-{ "Cue": "<b>L4 – Encuentro</b>", "Estado": "Ámbar tenue", "Detalle": "Abrazo con la niña interior; calma." },
-{ "Cue": "<b>L5 – Vuelo final</b>", "Estado": "General cálido + contraluz", "Detalle": "Elevación suave; deja estela luminosa." }
-],
-"sonido": [
-"<b>Apertura</b>: <em>rubato</em> lúdico con <b>texturas ligeras</b> (maderas/violines sul tasto).",
-"<b>Transiciones</b>: crescendos breves para activar “puerta” y “vuelo”.",
-"<b>Silencios expresivos</b>: sostener respiraciones como parte del discurso musical.",
-"<b>Final</b>: <em>diminuendo</em> con contraluz y suspensión.",
-"<b>Refuerzo</b>: microfonía/monitores según espacio (ver rider general)."
-],
-"vestuario": {
-"images": [
-{ "title": "Sombreros locos", "src": "sombreros-locos.jpg", "file": "sombreros-locos.jpg" },
-{ "title": "Alas de cartón", "src": "alas-carton.jpg", "file": "alas-carton.jpg" },
-{ "title": "Vestuario lúdico 1", "src": "vestuario-ludico1.jpg","file": "vestuario-ludico1.jpg" },
-{ "title": "Vestuario lúdico 2", "src": "vestuario-ludico2.jpg","file": "vestuario-ludico2.jpg" },
-{ "title": "Accesorios surrealistas", "src": "accesorios-surreal.jpg","file": "accesorios-surreal.jpg" }
-]
-},
-"escenario": {
-"images": [
-{ "title": "Arte escena 6", "src": "Escena 6.jpg", "alt": "Arte de Escena 6" },
-{ "title": "Fondo 6", "src": "Fondo 6.jpg", "alt": "Fondo surreal con escaleras y relojes" }
-]
-},
-"checklist": [
-"[ ] Proyección <b>Fondo 6.jpg</b> (surreal) operativa.",
-"[ ] <b>Sombreros/alas</b> listos y asignados por rol.",
-"[ ] <b>Objetos imposibles</b> seguros (suspensión y tránsito en escena).",
-"[ ] Cues de luces L1–L5 programados y probados.",
-"[ ] Entrada musical y silencios expresivos ensayados.",
-"[ ] Marcaje de <b>puerta dibujada</b> y elevación final."
-],
-"pdfs": {
-"guion": "Guión Escena VI.pdf",
-"partitura": "La vida es un carnaval Partitura.pdf"
-},
-"centros": {
-"items": [
-"<b>Teatro:</b> Lucero",
-"<b>Danza:</b> GMMMC",
-"<b>Artes plásticas:</b> Arroyo"
-],
-"docentesText": "Docentes responsables: Angie Nitola y Leydy Díaz"
-},
-"materiales": [
-"Vestuario lúdico: <em>vestimenta loca</em>, peinados y sombreros absurdos. <span class='pill'>vestuario</span>",
-"Sombreros locos: cartón paja, limpia-pipas, foamy, plumas, lentejuelas. <span class='pill'>materiales</span>",
-"Utilería: alas de cartón, colas de dragón, varillas para alebrijes. <span class='pill'>utileria</span>",
-"Proyección: <code>Fondo 6.jpg</code> (relojes derretidos, escaleras flotantes). <span class='pill'>proyeccion</span>",
-"Escenografía: mesas/sillas/platos/pocillos para “levitar”. <span class='pill'>materiales</span>",
-"Luces: paleta lavanda/cian + cálidos para juego y vuelo. <span class='pill'>luces</span>"
-],
-"recursos": [
-{ "title": "Guión Escena VI (PDF)", "href": "Guión Escena VI.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
-{ "title": "Carpeta de Partituras – Tierra Imaginaria", "href": "[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]", "areas": ["musica"], "icon": "🎼" },
-{ "title": "Pista – Tierra Imaginaria (MP3)", "href": "Tierra Imaginaria.mp3", "areas": ["musica"], "icon": "🎵" }
-],
-"docentes": {
-"hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
-"items": [
-{ "name": "Angie Nitola", "url": "docentes/brenda.html", "areas": ["teatro"] },
-{ "name": "Angie Nitola", "url": "docentes/angie.html", "areas": ["danza"] },
-{ "name": "Leydy Díaz", "url": "docentes/leydy.html", "areas": ["plastica"] }
-]
-},
-"glosario": [
-{ "term": "rubato", "def": "flexibilidad expresiva del tiempo; ‘robar y devolver’ al pulso." },
-{ "term": "alebrije", "def": "criatura fantástica de colores vivos; aquí guía lúdica/poética." },
-{ "term": "recorte", "def": "luz puntual que aísla a una persona u objeto en escena." }
-]
+  "meta": {
+    "title": "AlegreMente 2025 · Escena 6",
+    "subtitle": "Tierra Imaginaria",
+    "footer": "AlegreMente 2025 · Escena 6 · Guía práctica",
+    "images": {
+      "hero": "Escena 6.jpg",
+      "heroAlt": "Escena 6 – Tierra Imaginaria",
+      "logo": "logo.jpg"
+    }
+  },
 
-}
+  "audio": {
+    "label": "🎶 Audio: “La Vida es un Carnaval”",
+    "sources": ["La Vida es un Carnaval.mp3"]
+  },
 
+  "filters": {
+    "areas": ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
+    "centros": ["arroyo", "betania", "gmmmc", "jerusalen", "lucero", "padre", "santo"],
+    "log": ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
+  },
+
+  "resumen": {
+    "text": "Sofía cruza a una <b>tierra donde todo lo imaginado es posible</b>: peces que vuelan, sillas flotantes y puertas dibujadas en el aire. Aquí <em>recupera el derecho a soñar</em>, a jugar y a crear sin miedo. La escena explora la <b>imaginación como resistencia</b>.",
+    "duration": "10 min",
+    "tags": ["Teatro · Danza · Artes Plásticas", "Música: Orquesta (La Vida es un Carnaval)"]
+  },
+
+  "proposito": [
+    "<strong>Habilitar</strong> la imaginación como herramienta de cuidado y libertad.",
+    "<strong>Explorar</strong> lo surreal y lo lúdico para ampliar el repertorio expresivo.",
+    "<strong>Integrar</strong> objetos y espacios imposibles como motores de creación."
+  ],
+
+  "pasos": [
+    "Sofía entra con ojos cerrados; al abrirlos, <em>el mundo está al revés</em> (sillas flotan, árboles invertidos).",
+    "Una <b>voz invisible</b> le invita a nombrar lo que quiere ser (nube, risa, gigante).",
+    "El elenco aparece con <b>sombreros y alas absurdas</b>, proponiendo juegos imposibles.",
+    "Sofía <b>dibuja una puerta</b> en el aire y la atraviesa; encuentra a su <em>niña interior</em>.",
+    "Con música, se activan <b>saltos sin gravedad</b> y <b>caminatas al revés</b>; cierre en elevación suave."
+  ],
+
+  "plastica": {
+    "items": [
+      "<strong>Fondo</strong>: estética <b>surreal</b> con escaleras flotantes y relojes derretidos (proyección <code>Fondo 6.jpg</code>).",
+      "<strong>Objetos imposibles</strong>: mesas/sillas suspendidas, platos y pocillos “levitando”.",
+      "<strong>Alebrijes</strong> (proyectados o en varillas) como criaturas guías.",
+      "<strong>Sombreros locos</strong> y alas de cartón para la poética de la imaginación."
+    ],
+    "assets": [
+      { "src": "Fondo 6.jpg" },
+      { "src": "Escena 6.jpg" }
+    ]
+  },
+
+  "luces": [
+    { "Cue": "<b>L1 – Despertar</b>", "Estado": "Lavanda + cian suave", "Detalle": "Atmósfera onírica al abrir ojos." },
+    { "Cue": "<b>L2 – Juego imposible</b>", "Estado": "Colores cálidos alternos", "Detalle": "Parpadeos lentos en objetos “flotantes”." },
+    { "Cue": "<b>L3 – Puerta dibujada</b>", "Estado": "Recorte focal", "Detalle": "Haz definido donde Sofía traza la puerta." },
+    { "Cue": "<b>L4 – Encuentro</b>", "Estado": "Ámbar tenue", "Detalle": "Abrazo con la niña interior; calma." },
+    { "Cue": "<b>L5 – Vuelo final</b>", "Estado": "General cálido + contraluz", "Detalle": "Elevación suave; deja estela luminosa." }
+  ],
+
+  "sonido": [
+    "<b>Apertura</b>: <em>rubato</em> lúdico con <b>texturas ligeras</b> (maderas/violines sul tasto).",
+    "<b>Transiciones</b>: crescendos breves para activar “puerta” y “vuelo”.",
+    "<b>Silencios expresivos</b>: sostener respiraciones como parte del discurso musical.",
+    "<b>Final</b>: <em>diminuendo</em> con contraluz y suspensión.",
+    "<b>Refuerzo</b>: microfonía/monitores según espacio (ver rider general)."
+  ],
+
+  "vestuario": {
+    "images": [
+      { "title": "Vestuario lúdico · escena 6", "src": "vestuario6.png", "file": "vestuario6.png" }
+    ]
+  },
+
+  "escenario": {
+    "images": [
+      { "title": "Arte escena 6", "src": "Escena 6.jpg", "alt": "Arte de Escena 6" },
+      { "title": "Fondo 6", "src": "Fondo 6.jpg", "alt": "Fondo surreal con escaleras y relojes" }
+    ]
+  },
+
+  "checklist": [
+    "[ ] Proyección <b>Fondo 6.jpg</b> (surreal) operativa.",
+    "[ ] <b>Sombreros/alas</b> listos y asignados por rol.",
+    "[ ] <b>Objetos imposibles</b> seguros (suspensión y tránsito en escena).",
+    "[ ] Cues de luces L1–L5 programados y probados.",
+    "[ ] Entrada musical y silencios expresivos ensayados.",
+    "[ ] Marcaje de <b>puerta dibujada</b> y elevación final."
+  ],
+
+  "pdfs": {
+    "guion": "Guión Escena VI.pdf",
+    "partitura": "La vida es un carnaval Partitura.pdf"
+  },
+
+  "centros": {
+    "items": [
+      "<b>Teatro:</b> Jerusalén",
+      "<b>Danza:</b> GMMMC",
+      "<b>Artes plásticas:</b> Arroyo"
+    ],
+    "docentesText": "Docentes responsables: Eryck Martínez, Angie Nitola y Leydy Díaz"
+  },
+
+  "materiales": [
+    "Vestuario lúdico: <em>vestimenta loca</em>, peinados y sombreros absurdos. <span class='pill'>vestuario</span>",
+    "Sombreros locos: cartón paja, limpia-pipas, foamy, plumas, lentejuelas. <span class='pill'>materiales</span>",
+    "Utilería: alas de cartón, colas de dragón, varillas para alebrijes. <span class='pill'>utileria</span>",
+    "Proyección: <code>Fondo 6.jpg</code> (relojes derretidos, escaleras flotantes). <span class='pill'>proyeccion</span>",
+    "Escenografía: mesas/sillas/platos/pocillos para “levitar”. <span class='pill'>materiales</span>",
+    "Luces: paleta lavanda/cian + cálidos para juego y vuelo. <span class='pill'>luces</span>"
+  ],
+
+  "recursos": [
+    { "title": "Guión Escena VI (PDF)", "href": "Guión Escena VI.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
+    { "title": "Partitura – La Vida es un Carnaval (PDF)", "href": "La vida es un carnaval Partitura.pdf", "areas": ["musica"], "icon": "🎼" },
+    { "title": "Pista – La Vida es un Carnaval (MP3)", "href": "La Vida es un Carnaval.mp3", "areas": ["musica"], "icon": "🎵" }
+  ],
+
+  "docentes": {
+    "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
+    "items": [
+      { "name": "Eryck Martínez", "url": "docentes/brenda.html", "areas": ["teatro"] },
+      { "name": "Angie Nitola", "url": "docentes/angie.html", "areas": ["danza"] },
+      { "name": "Leydy Díaz", "url": "docentes/leydy.html", "areas": ["plastica"] }
+    ]
+  },
+
+  "glosario": [
+    { "term": "rubato", "def": "flexibilidad expresiva del tiempo; ‘robar y devolver’ al pulso." },
+    { "term": "alebrije", "def": "criatura fantástica de colores vivos; aquí guía lúdica/poética." },
+    { "term": "recorte", "def": "luz puntual que aísla a una persona u objeto en escena." }
+  ],
+
+  "files": {
+    "images": ["Escena 6.jpg", "Fondo 6.jpg", "logo.jpg", "vestuario6.png"],
+    "audio": ["La Vida es un Carnaval.mp3"],
+    "docs": ["Guión Escena VI.pdf", "La vida es un carnaval Partitura.pdf"],
+    "code": ["index.html", "style.css", "script.js"],
+    "data": ["escena6.json"]
+  }
+}
