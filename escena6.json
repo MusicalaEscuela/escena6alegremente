@@ -119,7 +119,7 @@
     { "title": "Guión Escena VI (PDF)", "href": "Guión Escena VI.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
     { "title": "Partitura – La Vida es un Carnaval (PDF)", "href": "La vida es un carnaval Partitura.pdf", "areas": ["musica"], "icon": "🎼" },
     { "title": "Pista – La Vida es un Carnaval (MP3)", "href": "La Vida es un Carnaval.mp3", "areas": ["musica"], "icon": "🎵" },
-    { "title": "Ensayo Danzas y Teatro - Lucero y GMMMC (oct)", "href": "youtube.com/watch?v=GHcRFftdxIY&feature=youtu.be", "areas": ["danza"], "icon": "▶️" }
+    { "title": "Ensayo Danzas y Teatro - Lucero y GMMMC (oct)", "href": "https://www.youtube.com/watch?v=GHcRFftdxIY&feature=youtu.be", "areas": ["danza"], "icon": "▶️" }
   ],
 
   "docentes": {
@@ -145,4 +145,5 @@
     "data": ["escena6.json"]
   }
 }
+
 
